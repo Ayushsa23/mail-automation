@@ -15,7 +15,7 @@ Mailautomation is a personal productivity project that connects to the IITK mail
 
 ## 📺 Demo
 
-Live demo: [ayushsa23.netlify.app/projects/mail-automation](https://ayushsa23.netlify.app/projects/mail-automation)
+Screenshots : [ayushsa23.netlify.app/projects/mail-automation](https://ayushsa23.netlify.app/projects/mail-automation)
 
 ## Why I built this
 
