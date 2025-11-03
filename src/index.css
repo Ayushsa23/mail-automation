@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #f0f4f8;
+    --bg-header: #f0f4f8;
+    --card-bg: #ffffff;
+    --card-text: #000000;
+  }
+
+  .dark {
+    --bg-primary: #111827;
+    --bg-header: #111827;
+    --card-bg: #1f2937;
+    --card-text: #f3f4f6;
+  }
+
+  html {
+    background-color: var(--bg-primary);
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg-primary);
+    transition: background-color 0.2s ease;
+    color: var(--card-text);
+  }
+  
+  h1 {
+    font-family: 'Sansita', sans-serif;
+  }
+  
+  /* Force black text in light mode for text elements (not buttons/links) */
+  :root:not(.dark) p,
+  :root:not(.dark) h1,
+  :root:not(.dark) h2,
+  :root:not(.dark) h3,
+  :root:not(.dark) h4,
+  :root:not(.dark) span:not(button span):not(a span),
+  :root:not(.dark) label,
+  :root:not(.dark) select,
+  :root:not(.dark) select option,
+  :root:not(.dark) input[type="text"],
+  :root:not(.dark) input[type="email"],
+  :root:not(.dark) textarea {
+    color: #000000 !important;
+  }
+  
+  /* Ensure select dropdown text is black in light mode */
+  :root:not(.dark) select {
+    color: #000000 !important;
+  }
+  
+  :root:not(.dark) select option {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
