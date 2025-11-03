@@ -153,6 +153,10 @@ project/
 
 If the UI shows “Empty response from server”, ensure the backend is running (`npm run dev:server`) and that IMAP port 993 is reachable from your network. More tips: see `TROUBLESHOOTING.md`.
 
+## LLM interaction
+
+Screenshots : [https://drive.google.com/drive/folders/1OC2BfACSXuC1PIEr8Pt2AfeACiCce3nL?usp=drive_link](https://drive.google.com/drive/folders/1OC2BfACSXuC1PIEr8Pt2AfeACiCce3nL?usp=drive_link))
+
 ## License
 
 This project is for educational purposes.
